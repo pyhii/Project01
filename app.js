@@ -54,7 +54,7 @@ window.addEventListener("load", function(){
     let output = "";
 
     for (var i in orders) {
-        output += "<div id='order'>" +
+        output += "<div class='order'>" +
             "<h2>Azonosító: "+ orders[i].id +"<h2>"+
             "<img src='" + orders[i].kep+"'>"+
             "<p>"+ orders[i].pizza +"</p>"+
